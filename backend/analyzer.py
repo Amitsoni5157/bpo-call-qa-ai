@@ -3,7 +3,7 @@ import json
 import os
 from groq import Groq
 from dotenv import load_dotenv
-
+from backend.schemas import QAComplianceAudit
 try:
     from backend.schemas import QAComplianceAudit
 except ImportError:
